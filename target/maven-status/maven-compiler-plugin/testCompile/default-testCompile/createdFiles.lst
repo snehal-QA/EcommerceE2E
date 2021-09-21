@@ -1,0 +1,14 @@
+pageObjects\AllBrandsPage.class
+pageObjects\RegisterPage.class
+utilities\WebDriverManager.class
+utilities\Log.class
+pageObjects\CheckOutPage.class
+utilities\BaseManager.class
+pageObjects\BaseUrlPage.class
+pageObjects\PageObjectsManager.class
+stepDefinitions\Hooks.class
+utilities\Generators.class
+pageObjects\BrandPage.class
+cucumber\Options\RunCucumberTests.class
+utilities\ConfigFileReader.class
+stepDefinitions\E2ETests_Steps.class

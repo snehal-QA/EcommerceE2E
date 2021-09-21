@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="cucumber.Options.RunCucumberTests" time="161.704" tests="2" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="16"/>
+    <property name="log4j.configurationFile" value="C:\SnehProjects\OtriumE2E/src/test/resources/log4j.xml"/>
+    <property name="webdriver.chrome.driver" value="C:\SnehProjects\OtriumE2E/src/test/resources/drivers/chromedriver.exe"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\SnehProjects\OtriumE2E\target\test-classes;C:\SnehProjects\OtriumE2E\target\classes;C:\Users\abhij\.m2\repository\io\cucumber\cucumber-java\6.11.0\cucumber-java-6.11.0.jar;C:\Users\abhij\.m2\repository\io\cucumber\cucumber-core\6.11.0\cucumber-core-6.11.0.jar;C:\Users\abhij\.m2\repository\io\cucumber\cucumber-gherkin\6.11.0\cucumber-gherkin-6.11.0.jar;C:\Users\abhij\.m2\repository\io\cucumber\cucumber-gherkin-messages\6.11.0\cucumber-gherkin-messages-6.11.0.jar;C:\Users\abhij\.m2\repository\io\cucumber\messages\15.0.0\messages-15.0.0.jar;C:\Users\abhij\.m2\repository\io\cucumber\tag-expressions\3.0.1\tag-expressions-3.0.1.jar;C:\Users\abhij\.m2\repository\io\cucumber\cucumber-expressions\10.3.0\cucumber-expressions-10.3.0.jar;C:\Users\abhij\.m2\repository\io\cucumber\datatable\3.5.0\datatable-3.5.0.jar;C:\Users\abhij\.m2\repository\io\cucumber\cucumber-plugin\6.11.0\cucumber-plugin-6.11.0.jar;C:\Users\abhij\.m2\repository\io\cucumber\docstring\6.11.0\docstring-6.11.0.jar;C:\Users\abhij\.m2\repository\io\cucumber\html-formatter\13.0.0\html-formatter-13.0.0.jar;C:\Users\abhij\.m2\repository\io\cucumber\create-meta\4.0.0\create-meta-4.0.0.jar;C:\Users\abhij\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\abhij\.m2\repository\org\testng\testng\7.3.0\testng-7.3.0.jar;C:\Users\abhij\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\abhij\.m2\repository\org\apache\ant\ant\1.10.3\ant-1.10.3.jar;C:\Users\abhij\.m2\repository\org\apache\ant\ant-launcher\1.10.3\ant-launcher-1.10.3.jar;C:\Users\abhij\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\abhij\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\abhij\.m2\repository\com\google\inject\guice\4.2.2\guice-4.2.2-no_aop.jar;C:\Users\abhij\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\abhij\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\abhij\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;C:\Users\abhij\.m2\repository\io\cucumber\cucumber-testng\6.11.0\cucumber-testng-6.11.0.jar;C:\Users\abhij\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\abhij\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\abhij\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\abhij\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\abhij\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\abhij\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\abhij\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\abhij\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\abhij\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\abhij\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\abhij\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\abhij\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\abhij\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\abhij\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\abhij\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\abhij\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\abhij\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\abhij\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\abhij\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\abhij\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\abhij\.m2\repository\org\apache\logging\log4j\log4j-api\2.14.1\log4j-api-2.14.1.jar;C:\Users\abhij\.m2\repository\org\apache\logging\log4j\log4j-core\2.14.1\log4j-core-2.14.1.jar;C:\Users\abhij\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\abhij\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\abhij\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\abhij\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\abhij\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\abhij\.m2\repository\io\cucumber\cucumber-picocontainer\6.11.0\cucumber-picocontainer-6.11.0.jar;C:\Users\abhij\.m2\repository\org\picocontainer\picocontainer\2.15\picocontainer-2.15.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Amsterdam"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="16"/>
+    <property name="logoutputpath" value="C:\SnehProjects\OtriumE2E"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-16.0.1\bin"/>
+    <property name="sun.java.command" value="C:\Users\abhij\AppData\Local\Temp\surefire12782236520778848885\surefirebooter14869939529653090804.jar C:\Users\abhij\AppData\Local\Temp\surefire12782236520778848885 2021-09-21T11-56-25_024-jvmRun1 surefire3903092735374319334tmp surefire_016131648726973020624tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\SnehProjects\OtriumE2E\target\test-classes;C:\SnehProjects\OtriumE2E\target\classes;C:\Users\abhij\.m2\repository\io\cucumber\cucumber-java\6.11.0\cucumber-java-6.11.0.jar;C:\Users\abhij\.m2\repository\io\cucumber\cucumber-core\6.11.0\cucumber-core-6.11.0.jar;C:\Users\abhij\.m2\repository\io\cucumber\cucumber-gherkin\6.11.0\cucumber-gherkin-6.11.0.jar;C:\Users\abhij\.m2\repository\io\cucumber\cucumber-gherkin-messages\6.11.0\cucumber-gherkin-messages-6.11.0.jar;C:\Users\abhij\.m2\repository\io\cucumber\messages\15.0.0\messages-15.0.0.jar;C:\Users\abhij\.m2\repository\io\cucumber\tag-expressions\3.0.1\tag-expressions-3.0.1.jar;C:\Users\abhij\.m2\repository\io\cucumber\cucumber-expressions\10.3.0\cucumber-expressions-10.3.0.jar;C:\Users\abhij\.m2\repository\io\cucumber\datatable\3.5.0\datatable-3.5.0.jar;C:\Users\abhij\.m2\repository\io\cucumber\cucumber-plugin\6.11.0\cucumber-plugin-6.11.0.jar;C:\Users\abhij\.m2\repository\io\cucumber\docstring\6.11.0\docstring-6.11.0.jar;C:\Users\abhij\.m2\repository\io\cucumber\html-formatter\13.0.0\html-formatter-13.0.0.jar;C:\Users\abhij\.m2\repository\io\cucumber\create-meta\4.0.0\create-meta-4.0.0.jar;C:\Users\abhij\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\abhij\.m2\repository\org\testng\testng\7.3.0\testng-7.3.0.jar;C:\Users\abhij\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\abhij\.m2\repository\org\apache\ant\ant\1.10.3\ant-1.10.3.jar;C:\Users\abhij\.m2\repository\org\apache\ant\ant-launcher\1.10.3\ant-launcher-1.10.3.jar;C:\Users\abhij\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\abhij\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\abhij\.m2\repository\com\google\inject\guice\4.2.2\guice-4.2.2-no_aop.jar;C:\Users\abhij\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\abhij\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\abhij\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;C:\Users\abhij\.m2\repository\io\cucumber\cucumber-testng\6.11.0\cucumber-testng-6.11.0.jar;C:\Users\abhij\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\abhij\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\abhij\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\abhij\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\abhij\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\abhij\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\abhij\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\abhij\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\abhij\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\abhij\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\abhij\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\abhij\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\abhij\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\abhij\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\abhij\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\abhij\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\abhij\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\abhij\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\abhij\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\abhij\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\abhij\.m2\repository\org\apache\logging\log4j\log4j-api\2.14.1\log4j-api-2.14.1.jar;C:\Users\abhij\.m2\repository\org\apache\logging\log4j\log4j-core\2.14.1\log4j-core-2.14.1.jar;C:\Users\abhij\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\abhij\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\abhij\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\abhij\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\abhij\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\abhij\.m2\repository\io\cucumber\cucumber-picocontainer\6.11.0\cucumber-picocontainer-6.11.0.jar;C:\Users\abhij\.m2\repository\org\picocontainer\picocontainer\2.15\picocontainer-2.15.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\abhij"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-04-20"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-16.0.1"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\SnehProjects\OtriumE2E"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\abhij\AppData\Local\Temp\surefire12782236520778848885\surefirebooter14869939529653090804.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="16.0.1+9-24"/>
+    <property name="user.name" value="abhij"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\abhij\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\abhij\AppData\Local\Temp\"/>
+    <property name="java.version" value="16.0.1"/>
+    <property name="user.dir" value="C:\SnehProjects\OtriumE2E"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="driverType" value="chrome"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-16.0.1\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk-15.0.2\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\apache-maven-3.8.2\bin;C:\Users\abhij\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\abhij\AppData\Local\Programs\Python\Python39\;C:\Users\abhij\AppData\Local\Microsoft\WindowsApps;C:\Users\abhij\AppData\Roaming\npm;C:\Program Files\apache-maven-3.8.2\bin;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="16.0.1+9-24"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="60.0"/>
+  </properties>
+  <testcase name="runScenario[&quot;User shops for adidas in Shoes&quot;, &quot;Optional[E2E tests for Signup Page]&quot;](1)" classname="cucumber.Options.RunCucumberTests" time="61.395">
+    <system-out><![CDATA[
+@E2ETest
+Scenario Outline: User shops for adidas in Shoes                                   # src/test/resources/features/OtriumE2E.feature:21
+2021-09-21 11:56:29,068 [INFO  ] Log - >> Opens the selected browser from POM command line properties
+
+    Opens the selected browser from POM command line properties
+
+2021-09-21 11:56:34,041 [INFO  ] Log - >> Title : Otrium | The Online Fashion Outlet | Get Exclusive Access
+ Expected : Otrium | The Online Fashion Outlet | Get Exclusive Access
+
+    Title :Otrium | The Online Fashion Outlet | Get Exclusive Access
+     Expected : Otrium | The Online Fashion Outlet | Get Exclusive Access
+
+  Given unauthenticated user navigates to Otrium.com page                          # stepDefinitions.E2ETests_Steps.user_navigates_to_otrium_com_sign_up_page()
+  When user clicks on "All brands" option                                          # stepDefinitions.E2ETests_Steps.user_clicks_on_option(java.lang.String)
+  And user selects gender "men"                                                    # stepDefinitions.E2ETests_Steps.selects_gender(java.lang.String)
+  And user selects brand "adidas"                                                  # stepDefinitions.E2ETests_Steps.selects_the_option(java.lang.String)
+  Then user is redirected to page having brand "adidas" image to continue shopping # stepDefinitions.E2ETests_Steps.user_redirects_brand_continue_shopping(java.lang.String)
+  When user clicks on "ShopNow"                                                    # stepDefinitions.E2ETests_Steps.user_clicks_on(java.lang.String)
+  And user finish registration page                                                # stepDefinitions.E2ETests_Steps.user_finish_registration_page()
+  And selects "Shoes" option                                                       # stepDefinitions.E2ETests_Steps.selects_option(java.lang.String)
+  And user sends shoe with related size for checkout                               # stepDefinitions.E2ETests_Steps.user_sends_shoe_with_related_size_for_checkout()
+  Then user enters the checkout details for payment                                # stepDefinitions.E2ETests_Steps.user_enters_the_checkout_details_for_payment()
+2021-09-21 11:57:27,831 [INFO  ] Log - >> Current Page : Payment method
+  And page is moved to payment page                                                # stepDefinitions.E2ETests_Steps.page_is_moved_to_payment_page()
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 18695
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1632218188.441][WARNING]: This version of ChromeDriver has not been tested with Chrome version 93.
+Sep 21, 2021 11:56:28 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;User shops for adidas in clothing&quot;, &quot;Optional[E2E tests for Signup Page]&quot;](2)" classname="cucumber.Options.RunCucumberTests" time="99.094">
+    <system-out><![CDATA[
+@E2ETest
+Scenario Outline: User shops for adidas in clothing                                # src/test/resources/features/OtriumE2E.feature:22
+2021-09-21 11:57:29,100 [INFO  ] Log - >> Opens the selected browser from POM command line properties
+
+    Opens the selected browser from POM command line properties
+
+2021-09-21 11:57:33,989 [INFO  ] Log - >> Title : Otrium | The Online Fashion Outlet | Get Exclusive Access
+ Expected : Otrium | The Online Fashion Outlet | Get Exclusive Access
+
+    Title :Otrium | The Online Fashion Outlet | Get Exclusive Access
+     Expected : Otrium | The Online Fashion Outlet | Get Exclusive Access
+
+  Given unauthenticated user navigates to Otrium.com page                          # stepDefinitions.E2ETests_Steps.user_navigates_to_otrium_com_sign_up_page()
+  When user clicks on "All brands" option                                          # stepDefinitions.E2ETests_Steps.user_clicks_on_option(java.lang.String)
+  And user selects gender "Women"                                                  # stepDefinitions.E2ETests_Steps.selects_gender(java.lang.String)
+  And user selects brand "adidas"                                                  # stepDefinitions.E2ETests_Steps.selects_the_option(java.lang.String)
+  Then user is redirected to page having brand "adidas" image to continue shopping # stepDefinitions.E2ETests_Steps.user_redirects_brand_continue_shopping(java.lang.String)
+  When user clicks on "ShopNow"                                                    # stepDefinitions.E2ETests_Steps.user_clicks_on(java.lang.String)
+  And user finish registration page                                                # stepDefinitions.E2ETests_Steps.user_finish_registration_page()
+  And selects "clothing" option                                                    # stepDefinitions.E2ETests_Steps.selects_option(java.lang.String)
+  And user sends shoe with related size for checkout                               # stepDefinitions.E2ETests_Steps.user_sends_shoe_with_related_size_for_checkout()
+  Then user enters the checkout details for payment                                # stepDefinitions.E2ETests_Steps.user_enters_the_checkout_details_for_payment()
+2021-09-21 11:59:06,900 [INFO  ] Log - >> Current Page : Payment method
+  And page is moved to payment page                                                # stepDefinitions.E2ETests_Steps.page_is_moved_to_payment_page()
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 37544
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1632218248.943][WARNING]: This version of ChromeDriver has not been tested with Chrome version 93.
+Sep 21, 2021 11:57:28 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+</testsuite>

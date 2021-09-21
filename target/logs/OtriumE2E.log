@@ -1,0 +1,8 @@
+2021-56-21 11:56:29.068 [main] INFO  utilities.Log - >> Opens the selected browser from POM command line properties
+2021-56-21 11:56:34.041 [main] INFO  utilities.Log - >> Title : Otrium | The Online Fashion Outlet | Get Exclusive Access
+ Expected : Otrium | The Online Fashion Outlet | Get Exclusive Access
+2021-57-21 11:57:27.831 [main] INFO  utilities.Log - >> Current Page : Payment method
+2021-57-21 11:57:29.100 [main] INFO  utilities.Log - >> Opens the selected browser from POM command line properties
+2021-57-21 11:57:33.989 [main] INFO  utilities.Log - >> Title : Otrium | The Online Fashion Outlet | Get Exclusive Access
+ Expected : Otrium | The Online Fashion Outlet | Get Exclusive Access
+2021-59-21 11:59:06.900 [main] INFO  utilities.Log - >> Current Page : Payment method

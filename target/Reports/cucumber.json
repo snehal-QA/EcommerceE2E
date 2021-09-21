@@ -1,0 +1,482 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Otrium.com page is open",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "output": [
+              "Title :Otrium | The Online Fashion Outlet | Get Exclusive Access\n Expected : Otrium | The Online Fashion Outlet | Get Exclusive Access"
+            ],
+            "result": {
+              "duration": 4955872600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "unauthenticated user navigates to Otrium.com page",
+            "match": {
+              "location": "stepDefinitions.E2ETests_Steps.user_navigates_to_otrium_com_sign_up_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-21T09:56:27.150Z",
+        "before": [
+          {
+            "output": [
+              "Opens the selected browser from POM command line properties"
+            ],
+            "result": {
+              "duration": 1919103700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.initilaize_browser(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 45003700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.E2ETests_Steps.before(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "User shops for adidas in Shoes",
+        "description": "",
+        "id": "e2e-tests-for-signup-page;user-shops-for-\u003cbrand\u003e-in-\u003ccategory\u003e;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 345920000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.E2ETests_Steps.after(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 16445339400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user clicks on \"All brands\" option",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"All brands\"",
+                  "offset": 15
+                }
+              ],
+              "location": "stepDefinitions.E2ETests_Steps.user_clicks_on_option(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 421782400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user selects gender \"men\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"men\"",
+                  "offset": 20
+                }
+              ],
+              "location": "stepDefinitions.E2ETests_Steps.selects_gender(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5776277200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user selects brand \"adidas\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"adidas\"",
+                  "offset": 19
+                }
+              ],
+              "location": "stepDefinitions.E2ETests_Steps.selects_the_option(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3135193300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user is redirected to page having brand \"adidas\" image to continue shopping",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"adidas\"",
+                  "offset": 40
+                }
+              ],
+              "location": "stepDefinitions.E2ETests_Steps.user_redirects_brand_continue_shopping(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2294259000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user clicks on \"ShopNow\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ShopNow\"",
+                  "offset": 15
+                }
+              ],
+              "location": "stepDefinitions.E2ETests_Steps.user_clicks_on(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 12853463900,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user finish registration page",
+            "match": {
+              "location": "stepDefinitions.E2ETests_Steps.user_finish_registration_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 661090400,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "selects \"Shoes\" option",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Shoes\"",
+                  "offset": 8
+                }
+              ],
+              "location": "stepDefinitions.E2ETests_Steps.selects_option(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10986389900,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user sends shoe with related size for checkout",
+            "match": {
+              "location": "stepDefinitions.E2ETests_Steps.user_sends_shoe_with_related_size_for_checkout()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1076991300,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user enters the checkout details for payment",
+            "match": {
+              "location": "stepDefinitions.E2ETests_Steps.user_enters_the_checkout_details_for_payment()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 124156500,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "page is moved to payment page",
+            "match": {
+              "location": "stepDefinitions.E2ETests_Steps.page_is_moved_to_payment_page()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@E2ETest"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Otrium.com page is open",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "output": [
+              "Title :Otrium | The Online Fashion Outlet | Get Exclusive Access\n Expected : Otrium | The Online Fashion Outlet | Get Exclusive Access"
+            ],
+            "result": {
+              "duration": 4908186900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "unauthenticated user navigates to Otrium.com page",
+            "match": {
+              "location": "stepDefinitions.E2ETests_Steps.user_navigates_to_otrium_com_sign_up_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-21T09:57:28.234Z",
+        "before": [
+          {
+            "output": [
+              "Opens the selected browser from POM command line properties"
+            ],
+            "result": {
+              "duration": 867039400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.initilaize_browser(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 3994600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.E2ETests_Steps.before(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "User shops for adidas in clothing",
+        "description": "",
+        "id": "e2e-tests-for-signup-page;user-shops-for-\u003cbrand\u003e-in-\u003ccategory\u003e;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 375027300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.E2ETests_Steps.after(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 21097091200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user clicks on \"All brands\" option",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"All brands\"",
+                  "offset": 15
+                }
+              ],
+              "location": "stepDefinitions.E2ETests_Steps.user_clicks_on_option(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 438046200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user selects gender \"Women\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Women\"",
+                  "offset": 20
+                }
+              ],
+              "location": "stepDefinitions.E2ETests_Steps.selects_gender(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5648013200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user selects brand \"adidas\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"adidas\"",
+                  "offset": 19
+                }
+              ],
+              "location": "stepDefinitions.E2ETests_Steps.selects_the_option(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3083227200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user is redirected to page having brand \"adidas\" image to continue shopping",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"adidas\"",
+                  "offset": 40
+                }
+              ],
+              "location": "stepDefinitions.E2ETests_Steps.user_redirects_brand_continue_shopping(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6471807900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user clicks on \"ShopNow\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ShopNow\"",
+                  "offset": 15
+                }
+              ],
+              "location": "stepDefinitions.E2ETests_Steps.user_clicks_on(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 12655847800,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user finish registration page",
+            "match": {
+              "location": "stepDefinitions.E2ETests_Steps.user_finish_registration_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 628393700,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "selects \"clothing\" option",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"clothing\"",
+                  "offset": 8
+                }
+              ],
+              "location": "stepDefinitions.E2ETests_Steps.selects_option(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 41419469700,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user sends shoe with related size for checkout",
+            "match": {
+              "location": "stepDefinitions.E2ETests_Steps.user_sends_shoe_with_related_size_for_checkout()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1397145700,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user enters the checkout details for payment",
+            "match": {
+              "location": "stepDefinitions.E2ETests_Steps.user_enters_the_checkout_details_for_payment()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 87579300,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "page is moved to payment page",
+            "match": {
+              "location": "stepDefinitions.E2ETests_Steps.page_is_moved_to_payment_page()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@E2ETest"
+          }
+        ]
+      }
+    ],
+    "name": "E2E tests for Signup Page",
+    "description": "",
+    "id": "e2e-tests-for-signup-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/OtriumE2E.feature",
+    "tags": [
+      {
+        "name": "@E2ETest",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
